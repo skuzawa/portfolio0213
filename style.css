@@ -13,6 +13,11 @@ header {
 
 }
 
+html {
+    height: 100vh;
+    background-color: crimson;
+}
+
 .header-logo{
     display: flex;
 }
@@ -71,11 +76,6 @@ header .navi li a:hover {
     border: 3px solid white;
     border-radius: 30px;
     margin: 0 20px;
-}
-
-html {
-    height: 100vh;
-    background-color: crimson;
 }
 
 .flex-text .image {
@@ -212,4 +212,10 @@ input:checked~.circle {
 
 input:checked~.circle {
     transform: translateX(100%);
+}
+
+.backpage{
+    color:white;
+    margin: 20px;
+    text-decoration: underline;
 }

@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Top</title>
    <link rel="stylesheet" href="./style.css">
-   <link rel="icon" href="ミニオン①.jpeg">
-   <script src="/script.js"></script>
+   <link rel="icon" href="ミニオン①.jpeg"> 
    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+   
    <header>
       <div class="header-logo">
          <p class="logo"><a class="over" href="#"></a>楽天証券</p>
          <label for="switch" class="switch_label">
             <div class="switch">
-              <input type="checkbox" id="switch" />
-              <div class="circle"></div>
-              <div class="base"></div>
+               <input type="checkbox" id="switch">
+               <div class="circle"></div>
+               <div class="base"></div>
             </div>
             <span class="switch2">通常モード</span>
-          </label>          
+         </label>
       </div>
 
       <div class="navi-top">
@@ -37,12 +36,12 @@
    </header>
    <main>
       <div class="title">
-         <p>プロフィール</p>
+         <p id="pro">プロフィール</p>
       </div>
-      <div class="flex-text">
+      <div class="flex-text" id="mainstyle">
 
          <figure>
-            <img src="my_picture.jpg" class="image" alt="no iamge" />
+            <img src="my_picture.jpg" class="image" alt="no iamge" id="face-img" />
          </figure>
          <div class="text">
             <span class="text2">九澤俊介</span><br>
@@ -95,10 +94,9 @@
          <p>
             <a href="stock.html">保有銘柄一覧</a>
          </p>
-
       </div>
+      <button class="backpage">ページ上部に戻る</button>
    </main>
-
 </body>
-
+<script src="script.js"></script>
 </html>
