@@ -12,6 +12,7 @@ checkbox.addEventListener('click', () => {
         const backstyle = document.querySelector("html");
         const hed = document.querySelector("header");
         const style = document.getElementsByClassName("text2");
+        
         switch2.textContent = checkbox.checked ? 'ナイトモード':"通常モード";
         backstyle.style.backgroundColor = checkbox.checked ? "black": "#DC143C";
         backstyle.style.color = checkbox.checked ? "green": "white";
