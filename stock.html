@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,47 @@
     <link rel="stylesheet" href="./stock.css">
     <link rel="icon" href="kabu.jpeg">
 </head>
+
 <body>
     <div class="stock_table">
-        <table align="center" id="tbl" border="1">
-            <tr>
-                <th>銘柄コード</th>
-                <th>銘柄</th>
-                <th>現在値</th>
-            </tr>
-            <tr>
-                <td>0000</td>
-                <td>ソニーグループ</td>
-                <td>14,300</td>
-            </tr>
-            <tr>
-                <td>0000</td>
-                <td>日本たばこ産業</td>
-                <td>3,939</td>
-            </tr>
-            <tr>
-                <td>0000</td>
-                <td>味の素</td>
-                <td>5,678</td>
-                
-            </tr>
-            <tr>
-                <td>0000</td>
-                <td>三菱USJフィナンシャルG</td>
-                <td>1,405</td>
-               
-            </tr>
-            <tr>
-                <td>4755</td>
-                <td>楽天グループ</td>
-                <td>635</td>
-                
-            </tr>
-        </table>
+        <div class="tableBlock">
+            <table align="center" id="tbl" border="1">
+                <tr>
+                    <th>銘柄コード</th>
+                    <th>銘柄</th>
+                    <th>現在値</th>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>ソニーグループ</td>
+                    <td>14,300</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>日本たばこ産業</td>
+                    <td>3,939</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>味の素</td>
+                    <td>5,678</td>
+
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>三菱USJフィナンシャルG</td>
+                    <td>1,405</td>
+
+                </tr>
+                <tr>
+                    <td>4755</td>
+                    <td>楽天グループ</td>
+                    <td>635</td>
+
+                </tr>
+            </table>
+        </div>
+
         <div id="edit-box"></div>
         <div id="edit_button">
             <button id="edit">編集</button>
@@ -51,8 +56,9 @@
             <button id="delete">削除</button>
         </div>
     </div>
-    
+
     <h1 id="practice">お気に入り銘柄</h1>
 </body>
 <script src="stock.js"></script>
+
 </html>
