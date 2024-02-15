@@ -43,6 +43,10 @@ table{
     /* padding-top: 20px; */
 }
 
+#edit-box{
+    padding:20px;
+}
+
 button{
     width: 7em;
     height:2em;
