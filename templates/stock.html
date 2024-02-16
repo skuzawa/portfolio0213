@@ -18,11 +18,11 @@
                     <th>銘柄</th>
                     <th>現在値</th>
                 </tr>
-                {% for stock in entered_string }
+                {% for stock in entered_string %}
                 <tr>
-                    <td>stock.symbol</td>
-                    <td>stock.name</td>
-                    <td>stock.price</td>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.name }}</td>
+                    <td>{{ stock.price }}</td>
                 </tr>
                 {% endfor %}
             </table>
@@ -32,11 +32,9 @@
             <form method="post">
                 <label for="textarea">Enter the valid ticker:</label><br>
                 <textarea id="textarea" name="textarea" rows="1" cols="20"></textarea><br>
-        </div>
-        <div id="edit_button">
-            <button id="edit" type="sumbit" name="edit">編集</button>
-            <button id="addition" type="submit" name="submit">追加</button>
-            <button id="delete" type="submit" name="clear">削除</button>
+                <button id="edit" type="sumbit" name="edit">編集</button>
+                <button id="addition" type="submit" name="submit">追加</button>
+                <button id="delete" type="submit" name="clear">削除</button>
             </form>
         </div>
     </div>
